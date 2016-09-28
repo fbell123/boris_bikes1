@@ -36,6 +36,8 @@ end
 
 
 describe Bike do
-    it { is_expected.to respond_to :is_working?}
-
+     it { is_expected.to respond_to :is_working?}
+    #it 'is bike working' do
+    #  expect{ bike.is_working?}.to
+    #end
 end
